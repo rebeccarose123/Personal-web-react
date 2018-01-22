@@ -7,7 +7,7 @@ class Header extends Component {
       <div>
         <a href={user.resume}>Resume</a>
         <br/>
-        <a href='/about'>Bio</a>
+        <a href={user.bio}>Bio</a>
       </div>
     )
   }
